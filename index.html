@@ -39,12 +39,13 @@
   </div>
 </div>
 
+
 <!-- ══ HEADER ══ -->
 <header class="site-header">
   <div class="header-inner">
     <a href="index.html" class="brand" aria-label="Accueil">
       <div class="brand-logo">
-        <img src="logo.jpg" alt="Logo ESP" onerror="this.style.display='none';this.parentNode.querySelector('.brand-logo-text').style.display='block'">
+        <img src="assets/logo.jpg" alt="Logo ESP" onerror="this.style.display='none';this.parentNode.querySelector('.brand-logo-text').style.display='block'">
         <span class="brand-logo-text" style="display:none">ESP</span>
       </div>
       <div class="brand-text">
@@ -58,10 +59,10 @@
         <li><a href="candidats.html">Candidats</a></li>
         <li><a href="vision.html">Vision</a></li>
         <li><a href="programme.html">Programme</a></li>
-        <li><a href="projets.html">Projets</a></li>
-        <li><a href="theorie-du-changement.html">Théorie</a></li>
-        <li><a href="agenda.html">Agenda</a></li>
-        <li><a href="engagement.html" class="cta">Nous soutenir</a></li>
+        <li><a href="projets.html">Projets structurants</a></li>
+        <li><a href="theorie-du-changement.html">Théorie du changement</a></li>
+        <li><a href="theorie-du-changement.html#calendrier">Calendrier de mise en oeuvre</a></li>
+        <li><a href="#video" class="cta nav-video">&#9654; Voir la vidéo</a></li>
       </ul>
     </nav>
     <button class="burger" id="menuToggle" aria-label="Ouvrir le menu" aria-expanded="false">
@@ -78,77 +79,55 @@
   <a href="programme.html">Programme</a>
   <a href="projets.html">Projets structurants</a>
   <a href="theorie-du-changement.html">Théorie du changement</a>
-  <a href="agenda.html">Agenda électoral</a>
-  <a href="engagement.html">Nous soutenir</a>
+  <a href="theorie-du-changement.html#calendrier">Calendrier de mise en oeuvre</a>
+
 </nav>
 
 <!-- ══ HERO ══ -->
 <section class="hero" id="top">
-  <div class="hero-content">
+  <div class="hero-3col">
 
-    <!-- Colonne gauche : texte -->
-    <div class="hero-left">
+    <!-- Photo gauche : Pr Mady CISSE -->
+    <div class="h3-photo h3-photo-left">
+      <img src="assets/mady2.jpeg" alt="Pr Mady CISSE">
+      <div class="h3-photo-grad"></div>
+      <div class="h3-photo-info">
+        <span class="portrait-tag">Candidat Directeur</span>
+        <div class="portrait-name">Pr Mady<br><strong>CISSE</strong></div>
+        <div class="portrait-grade">Professeur Titulaire · ESP/UCAD</div>
+      </div>
+    </div>
+
+    <!-- Centre : contenu -->
+    <div class="h3-center">
       <div class="hero-kicker">
         <span class="kicker-pulse"></span>
         ESP / UCAD — Élection Juillet 2026
       </div>
-      <h1 class="hero-title">
-        <span class="ht-prenom">Pr Mady</span>
-        <span class="ht-nom">CISSE</span>
-        <span class="ht-amp">&amp;</span>
-        <span class="ht-prenom">Pr Ibrahima</span>
-        <span class="ht-nom">FALL</span>
-      </h1>
-      <p class="hero-role">Candidats Directeur &amp; Directeur des Études<br>
-        <strong>École Supérieure Polytechnique — UCAD</strong></p>
+      <div class="h3-divider"><span class="h3-divider-dot"></span></div>
+      <div class="h3-ampersand">&amp;</div>
+      <div class="h3-divider"><span class="h3-divider-dot"></span></div>
+      <h1 class="h3-title">Candidats Directeur<br>&amp; Directeur des Études</h1>
+      <p class="h3-school">École Supérieure Polytechnique — UCAD</p>
       <p class="hero-slogan">Ensemble vers une nouvelle dynamique de performances</p>
-      <div class="hero-btns">
-        <a href="engagement.html" class="btn btn-primary">Nous soutenir →</a>
-        <a href="programme.html" class="btn btn-outline">Découvrir le programme</a>
+      <div class="hero-btns" style="justify-content:center;">
+        <a href="#video" class="btn btn-play"><span class="play-ic">&#9654;</span> Voir la vidéo</a>
+        <a href="programme.html" class="btn btn-outline">Le programme</a>
       </div>
-      <div class="hero-meta">
-        <div class="hero-meta-item">
-          <div class="hero-meta-label">Élection</div>
-          <div class="hero-meta-value">Juillet 2026</div>
-        </div>
-        <div class="hero-meta-item">
-          <div class="hero-meta-label">Mandat</div>
-          <div class="hero-meta-value">2026 — 2029</div>
-        </div>
-        <div class="hero-meta-item">
-          <div class="hero-meta-label">Axes stratégiques</div>
-          <div class="hero-meta-value">8 priorités</div>
-        </div>
+      <div class="h3-live">
+        <span class="live-dot"></span>
+        <span>Campagne officielle en cours</span>
       </div>
     </div>
 
-    <!-- Colonne droite : portraits -->
-    <div class="hero-right">
-      <div class="hero-portraits">
-        <div class="hero-portrait">
-          <div class="hero-portrait-img">
-            <img src="mady.jpeg" alt="Pr Mady CISSE">
-          </div>
-          <div class="hero-portrait-info">
-            <span class="portrait-tag">Candidat Directeur</span>
-            <div class="portrait-name">Pr Mady<br><strong>CISSE</strong></div>
-            <div class="portrait-grade">Enseignant /Chercheur</div>
-          </div>
-        </div>
-        <div class="hero-portrait alt">
-          <div class="hero-portrait-img">
-            <img src="ibrahima.jpeg" alt="Pr Ibrahima FALL" style="filter:saturate(.9) brightness(1.02)">
-          </div>
-          <div class="hero-portrait-info">
-            <span class="portrait-tag alt">Candidat Dir. des Études</span>
-            <div class="portrait-name"> PR Ibrahima<br><strong>FALL</strong></div>
-            <div class="portrait-grade">Enseignant /Chercheur</div>
-          </div>
-        </div>
-      </div>
-      <div class="hero-right-badge">
-        <span class="live-dot"></span>
-        <span>Campagne officielle en cours</span>
+    <!-- Photo droite : Pr Ibrahima FALL -->
+    <div class="h3-photo h3-photo-right">
+      <img src="assets/ibrahima2.jpeg" alt="Pr Ibrahima FALL" style="filter:saturate(.9) brightness(1.02)">
+      <div class="h3-photo-grad"></div>
+      <div class="h3-photo-info">
+        <span class="portrait-tag alt">Candidat Dir. des Études</span>
+        <div class="portrait-name">Pr Ibrahima<br><strong>FALL</strong></div>
+        <div class="portrait-grade">Professeur Titulaire · ESP/UCAD</div>
       </div>
     </div>
 
@@ -178,7 +157,7 @@
 
       <div class="video-embed">
         <video id="mainVideo" controls preload="metadata" poster="video/poster.jpg" loop>
-          <source src="vid.mp4" type="video/mp4">
+          <source src="video/vid.mp4" type="video/mp4">
           Votre navigateur ne supporte pas la lecture vidéo.
         </video>
       </div>
@@ -188,191 +167,53 @@
   </div>
 </section>
 
-<!-- ══ GALERIE CAMPAGNE ══ -->
-<section class="section galerie-section" id="galerie">
-  <div class="container">
-    <div class="section-hd center">
-      <div class="eyebrow">Galerie de campagne</div>
-      <h2 class="section-title">Notre campagne<br>en images</h2>
-      <p class="section-intro">Retour en images sur les moments forts et l'engagement de Pr Mady CISSE et Pr Ibrahima FALL pour l'École Supérieure Polytechnique.</p>
-    </div>
+<!-- ══ ESP VISION ══ -->
+<section class="esp-vis-section reveal" id="institution">
+  <div class="esp-vis-layout">
 
-    <div class="galerie-grid">
-      <div class="gal-item gal-tall reveal">
-        <img src="mady2.jpeg" alt="Pr Mady CISSE, candidat Directeur ESP 2026" loading="lazy" style="object-fit:cover;object-position:center top;width:100%;height:100%;">
-        <div class="gal-overlay gal-overlay-cand">
-          <div class="gal-tag">Candidat Directeur</div>
-          <div class="gal-name">Pr Mady CISSE</div>
-          <div class="gal-desc">Professeur Titulaire de Classe Exceptionnelle · Génie Chimique et Biologie Appliquée</div>
-          <div class="gal-desc-bar"></div>
-        </div>
-      </div>
-      <div class="gal-item gal-tall reveal">
-        <img src="ibrahima2.jpeg" alt="Pr Ibrahima FALL, candidat Directeur des Études ESP 2026" loading="lazy" style="object-fit:cover;object-position:center top;width:100%;height:100%;">
-        <div class="gal-overlay gal-overlay-cand">
-          <div class="gal-tag">Candidat Dir. des Études</div>
-          <div class="gal-name">Pr Ibrahima FALL</div>
-          <div class="gal-desc">Professeur Titulaire · Chef du Département Génie Informatique</div>
-          <div class="gal-desc-bar"></div>
-        </div>
-      </div>
-      <div class="gal-item gal-theme reveal" style="--gal-clr:#1D2769">
-        <div class="gal-theme-inner">
-          <div class="gal-theme-num">01</div>
-          <div class="gal-theme-icon">&#127891;</div>
-          <div class="gal-theme-title">Excellence<br>Académique</div>
-          <div class="gal-theme-sub">Axe stratégique prioritaire</div>
-        </div>
-      </div>
-      <div class="gal-item gal-wide reveal">
-        <img src="esp1.jpg" alt="ESP — École Supérieure Polytechnique UCAD" loading="lazy" class="gal-logo-img">
-        <div class="gal-overlay gal-overlay-center">
-          <div class="gal-tag">Institution</div>
-          <div class="gal-name">École Supérieure Polytechnique — UCAD</div>
-        </div>
-      </div>
-      <div class="gal-item gal-theme reveal" style="--gal-clr:#1a3a6b">
-        <div class="gal-theme-inner">
-          <div class="gal-theme-num">02</div>
-          <div class="gal-theme-icon">&#128300;</div>
-          <div class="gal-theme-title">Innovation<br>&amp; Recherche</div>
-          <div class="gal-theme-sub">Projets structurants</div>
-        </div>
-      </div>
-      <div class="gal-item gal-theme reveal" style="--gal-clr:#253394">
-        <div class="gal-theme-inner">
-          <div class="gal-theme-num">03</div>
-          <div class="gal-theme-icon">&#127760;</div>
-          <div class="gal-theme-title">Rayonnement<br>International</div>
-          <div class="gal-theme-sub">Partenariats mondiaux</div>
-        </div>
-      </div>
-      <div class="gal-item gal-theme reveal" style="--gal-clr:#0d1540">
-        <div class="gal-theme-inner">
-          <div class="gal-theme-num">04</div>
-          <div class="gal-theme-icon">&#128187;</div>
-          <div class="gal-theme-title">Campus<br>Numérique</div>
-          <div class="gal-theme-sub">Transformation digitale</div>
-        </div>
-      </div>
-      <div class="gal-item gal-theme reveal gal-wide-bot" style="--gal-clr:#131b4d">
-        <div class="gal-theme-inner gal-theme-inner-h">
-          <div>
-            <div class="gal-theme-num gal-num-inline">05</div>
-            <div class="gal-theme-icon gal-icon-inline">&#127942;</div>
-          </div>
-          <div>
-            <div class="gal-theme-title" style="font-size:1.1rem">Gouvernance Transparente &amp; Inclusive</div>
-            <div class="gal-theme-sub">Dialogue, concertation, résultats mesurables</div>
-          </div>
-        </div>
+    <!-- Photo ESP -->
+    <div class="esp-vis-photo">
+      <img src="assets/esp1.jpg" alt="École Supérieure Polytechnique — UCAD" loading="lazy">
+      <div class="esp-vis-photo-overlay">
+        <div class="esp-vis-photo-tag">ESP · UCAD · Dakar</div>
+        <div class="esp-vis-photo-name">École Supérieure<br>Polytechnique</div>
+        <div class="esp-vis-photo-sub">60 ans d'excellence · Première école d'ingénieurs du Sénégal</div>
       </div>
     </div>
-  </div>
-</section>
 
-<!-- ══ DÉCRYPTAGE VIDÉO ══ -->
-<section class="section vid-detail-section" id="programme-video">
-  <div class="container">
-    <div class="section-hd center">
-      <div class="eyebrow">Décryptage</div>
-      <h2 class="section-title">Ce que vous avez vu<br>dans la vidéo</h2>
-      <p class="section-intro">Une présentation détaillée des engagements, de la vision et du programme de transformation que portent Pr Mady CISSE et Pr Ibrahima FALL pour l'ESP.</p>
-    </div>
+    <!-- Vision + Slogan -->
+    <div class="esp-vis-content">
+      <div class="eyebrow">Notre Vision · 2026–2029</div>
+      <h2 class="esp-vis-title">Ensemble vers une nouvelle<br>dynamique de performances</h2>
+      <p class="esp-vis-intro">Pr Mady CISSE et Pr Ibrahima FALL portent un projet ambitieux pour faire de l'ESP un pôle d'excellence reconnu sur le plan international, ancré dans les valeurs de rigueur, d'innovation et d'ouverture.</p>
 
-    <div class="vid-detail-layout">
-
-      <!-- Colonne gauche : timeline -->
-      <div class="vd-left">
-        <div class="vd-timeline">
-          <div class="vd-step reveal">
-            <div class="vd-step-num">01</div>
-            <div class="vd-step-body">
-              <h4>Le constat : où en est l'ESP ?</h4>
-              <p>Pr Mady CISSE et Pr Ibrahima FALL dressent un bilan honnête de l'École Supérieure Polytechnique — ses forces et atouts académiques reconnus, mais aussi les défis structurels à relever pour maintenir son excellence régionale.</p>
-            </div>
-          </div>
-          <div class="vd-step reveal">
-            <div class="vd-step-num">02</div>
-            <div class="vd-step-body">
-              <h4>La vision : « Nouvelle dynamique de performances »</h4>
-              <p>Le binôme présente sa vision centrale : transformer l'ESP en un pôle d'excellence mondialement reconnu, en combinant rigueur académique, innovation technologique et ouverture sur le monde professionnel et international.</p>
-            </div>
-          </div>
-          <div class="vd-step reveal">
-            <div class="vd-step-num">03</div>
-            <div class="vd-step-body">
-              <h4>Les 8 axes stratégiques en détail</h4>
-              <p>De la gouvernance transparente à la digitalisation des processus, en passant par le renforcement de la recherche et des partenariats — chaque axe est présenté avec des objectifs clairs et mesurables sur 3 ans.</p>
-            </div>
-          </div>
-          <div class="vd-step reveal">
-            <div class="vd-step-num">04</div>
-            <div class="vd-step-body">
-              <h4>Les 5 projets structurants</h4>
-              <p>Des projets concrets avec des délais définis : campus numérique, incubateur de startups étudiantes, réseau des alumni actif, centre de documentation modernisé et hub d'insertion professionnelle.</p>
-            </div>
-          </div>
-          <div class="vd-step reveal">
-            <div class="vd-step-num">05</div>
-            <div class="vd-step-body">
-              <h4>L'engagement envers la communauté ESP</h4>
-              <p>Un message fort aux étudiants, enseignants et personnels : leur candidature est un engagement collectif, une promesse de dialogue continu et de prise de décision inclusive sur toute la durée du mandat 2026–2029.</p>
-            </div>
-          </div>
+      <div class="esp-vis-pillars">
+        <div class="esp-vis-pillar">
+          <span class="esp-vis-pillar-icon">&#127891;</span>
+          <span>Excellence académique et scientifique</span>
+        </div>
+        <div class="esp-vis-pillar">
+          <span class="esp-vis-pillar-icon">&#128300;</span>
+          <span>Innovation, recherche et entrepreneuriat</span>
+        </div>
+        <div class="esp-vis-pillar">
+          <span class="esp-vis-pillar-icon">&#127760;</span>
+          <span>Rayonnement international et partenariats</span>
+        </div>
+        <div class="esp-vis-pillar">
+          <span class="esp-vis-pillar-icon">&#128101;</span>
+          <span>Gouvernance transparente et inclusive</span>
         </div>
       </div>
 
-      <!-- Colonne droite : faits marquants -->
-      <div class="vd-right">
-        <div class="vd-highlights">
+      <blockquote class="esp-vis-quote">
+        « L'ESP mérite une direction à la hauteur de son histoire et de ses ambitions pour les prochaines décennies. »
+        <cite>— Pr Mady CISSE &amp; Pr Ibrahima FALL</cite>
+      </blockquote>
 
-          <div class="vd-hl-card reveal">
-            <div class="vd-hl-icon">&#9654;</div>
-            <div class="vd-hl-content">
-              <div class="vd-hl-label">Message clé</div>
-              <blockquote class="vd-hl-quote">« L'ESP mérite une direction à la hauteur de son histoire et de ses ambitions. »</blockquote>
-              <div class="vd-hl-author">— Pr Mady CISSE, Professeur Titulaire</div>
-            </div>
-          </div>
-
-          <div class="vd-hl-card reveal">
-            <div class="vd-hl-icon">&#9654;</div>
-            <div class="vd-hl-content">
-              <div class="vd-hl-label">Engagement phare</div>
-              <blockquote class="vd-hl-quote">« Chaque étudiant, chaque enseignant aura voix au chapitre dans les décisions qui façonnent notre école. »</blockquote>
-              <div class="vd-hl-author">— Pr Ibrahima FALL, Professeur Titulaire</div>
-            </div>
-          </div>
-
-          <div class="vd-kpis reveal">
-            <div class="vd-kpi">
-              <div class="vd-kpi-val" data-target="8">0</div>
-              <div class="vd-kpi-lab">Axes stratégiques</div>
-            </div>
-            <div class="vd-kpi">
-              <div class="vd-kpi-val" data-target="5">0</div>
-              <div class="vd-kpi-lab">Projets structurants</div>
-            </div>
-            <div class="vd-kpi">
-              <div class="vd-kpi-val" data-target="3">0</div>
-              <div class="vd-kpi-lab">Ans de mandat</div>
-            </div>
-          </div>
-
-          <div class="vd-cta-card reveal">
-            <div class="vd-cta-icon">&#128196;</div>
-            <div class="vd-cta-text">
-              <div class="vd-cta-title">Programme complet disponible</div>
-              <div class="vd-cta-sub">Téléchargez la profession de foi et le programme détaillé en PDF</div>
-            </div>
-            <a href="programme.html" class="btn btn-primary">Voir le programme</a>
-          </div>
-
-        </div>
-      </div>
-
+      <a href="vision.html" class="btn btn-primary">Découvrir la vision complète →</a>
     </div>
+
   </div>
 </section>
 
@@ -394,7 +235,7 @@
         <li><a href="programme.html">8 Axes Stratégiques</a></li>
         <li><a href="projets.html">Projets structurants</a></li>
         <li><a href="theorie-du-changement.html">Théorie du changement</a></li>
-        <li><a href="agenda.html">Agenda électoral</a></li>
+        <li><a href="theorie-du-changement.html#calendrier">Calendrier de mise en oeuvre</a></li>
       </ul>
     </div>
     <div class="footer-col">
@@ -404,19 +245,26 @@
         <li><a href="documents/programme-complet.pdf" target="_blank" rel="noopener noreferrer">Programme complet</a></li>
         <li><a href="documents/theorie-du-changement.pdf" target="_blank" rel="noopener noreferrer">Théorie du changement</a></li>
         <li><a href="documents/presentation.pdf" target="_blank" rel="noopener noreferrer">Présentation détaillée</a></li>
-        <li><a href="documents/communique-presse.pdf" target="_blank" rel="noopener noreferrer">Communiqué de presse</a></li>
-      </ul>
+        </ul>
     </div>
     <div class="footer-col">
       <h4>Liens utiles</h4>
       <ul>
         <li><a href="https://www.esp.sn" target="_blank" rel="noopener noreferrer">www.esp.sn</a></li>
         <li><a href="https://www.ucad.sn" target="_blank" rel="noopener noreferrer">www.ucad.sn</a></li>
-        <li><a href="mentions-legales.html">Mentions légales</a></li>
         <li><a href="mentions-legales.html#donnees">Protection des données</a></li>
-        <li><a href="engagement.html">Contact presse</a></li>
+        <li><a href="index.html#video">&#9654; Vidéo de campagne</a></li>
       </ul>
     </div>
+  </div>
+  <div class="footer-video">
+    <div class="footer-video-info">
+      <h4>Vidéo de campagne</h4>
+      <p>Pr Mady CISSE et Pr Ibrahima FALL présentent leur programme pour l'École Supérieure Polytechnique — Juillet 2026.</p>
+    </div>
+    <video controls preload="none" poster="video/poster.jpg">
+      <source src="video/vid.mp4" type="video/mp4">
+    </video>
   </div>
   <div class="footer-bot">
     <p class="footer-copy">© 2026 Pr Mady CISSE &amp; Pr Ibrahima FALL — Programme ESP/UCAD. Tous droits réservés.</p>
@@ -443,5 +291,6 @@
 </div>
 
 <script src="main.js" defer></script>
+<a href="#video" class="float-vid" aria-label="Voir la vidéo"></a>
 </body>
 </html>
